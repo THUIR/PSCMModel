@@ -1,0 +1,29 @@
+MAX_ITERATIONS = 40
+MAX_ITERATION_POM = 5 #poor performance on large iteration rounds
+MAX_ITERATION_THCM = 10 #poor performance on large iteration rounds
+DEBUG = False
+PRETTY_LOG = True
+CLASS_K = 1
+DAY_D = 1
+TEST_MODELS = ['PSCM', 'UBM', 'DBN','THCM','TCM', 'POM']
+
+
+MIN_DOCS_PER_QUERY = 10
+MAX_DOCS_PER_QUERY = 10
+
+SERP_SIZE = 10
+EXTENDED_LOG_FORMAT = False
+
+TRANSFORM_LOG = False
+QUERY_INDEPENDENT_PAGER = False
+
+TRAIN_FOR_METRIC = False
+PRINT_EBU_STATS = True
+
+MAX_INSERT_NUM = 3
+MAX_QK_LENGTH = 2
+MAX_TOP_N = 50
+MAX_POM_CHAIN = 5
+
+
+
