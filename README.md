@@ -1,12 +1,13 @@
-# [ClickModelsWC](https://github.com/kurakimai/clickmodel_wc)
+# [PSCMModel](https://github.com/THUIR/PSCMModel)
 
-ClickModelsWC is a small set of Python scripts for the user click models based on Yandex version (https://github.com/varepsilon/clickmodels). 
+PSCMModel is a small set of Python scripts for the user click models based on Yandex version (https://github.com/varepsilon/clickmodels). 
 
 A *Click Model* is a probabilistic graphical model used to predict search engine click data from past observations.
 
 This project is aimed to implement recently proposed click models and intended to be easy-to-read and easy-to-modify. If it's not, please let me know how to improve it :)
 
 # Models Implemented
+- *Partially Sequential Click Model* ( **PSCM** ) model: Chao Wang, Yiqun Liu, Meng Wang, Ke Zhou, Jian-Yun Nie, Shaoping Ma. Incorporating Non-sequential Behavior into Click Models. SIGIR (2015).
 - *Temporal Hidden Click Model* ( **THCM** ) model: Danqing Xu, Yiqun Liu, Min Zhang, Shaoping Ma. Incorporating revisiting behaviors into click models. WSDM (2012).
 - *Temporal Click Model* ( **TCM** ) model: Wanhong Xu, Eren Manavoglu, Erick Cantú-Paz. Temporal Click Model for Sponsored Search. SIFIR (2010).
 - *Partially Observable Markov Model* ( **POM** ) model: Kuansan Wang, Nikolas Gloy, Xiaolong Li. Inferring search behaviors using partially observable markov (pom) model. WSDM (2010).
@@ -20,7 +21,7 @@ This file.
 ## bin/
 Directory with the scripts.
 
-## data/
+## sample/
 
 Directory with the sample dataset.
 
@@ -47,7 +48,7 @@ A small example can be found under `sample/` (tab-separated). 5 files are includ
 
 
 # Usage
-in bin/config_sample.py: select click models (e.g.: TEST_MODELS = ['THCM', 'UBM','DBN','POM'])
+in bin/config_sample.py: select click models (e.g.: TEST_MODELS = ['PSCM', 'UBM', 'DBN', 'POM', 'TCM', 'THCM'])
 
 in bin/ : python wc_click_model_inference_by_id.py ../sample
 
