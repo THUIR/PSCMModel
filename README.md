@@ -22,8 +22,13 @@ This file.
 Directory with the scripts.
 
 ## sample/
-
 Directory with the sample dataset.
+
+## relevance_test_dataset/
+query-result relevance data for PSCM model's paper (Section 5.3)
+
+## user_preference_test_dataset/
+user preference test data for PSCM model's paper (Section 5.4)
 
 # Format of the Input Data 
 A small example can be found under `sample/` (tab-separated). 5 files are included in this directory:
