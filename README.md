@@ -12,7 +12,7 @@ This project is aimed to implement recently proposed click models and intended t
 - *Temporal Click Model* ( **TCM** ) model: Wanhong Xu, Eren Manavoglu, Erick Cantú-Paz. Temporal Click Model for Sponsored Search. SIFIR (2010).
 - *Partially Observable Markov Model* ( **POM** ) model: Kuansan Wang, Nikolas Gloy, Xiaolong Li. Inferring search behaviors using partially observable markov (pom) model. WSDM (2010).
 - *Dynamic Bayesian Network* ( **DBN** ) model: Chapelle, O. and Zhang, Y. 2009. A dynamic bayesian network click model for web search ranking. WWW (2009). (This model is exactly the same implementation as Yandex version)
-- *User Browsing Model* ( **UBM** ): Dupret, G. and Piwowarski, B. 2008. A user browsing model to predict search engine click data from past observations. SIGIR (2008). (This model is exactly the same implementation as the inference method from the original paper, which is slightly different from Yandex version)
+- *User Browsing Model* ( **UBM** ): Dupret, G. and Piwowarski, B. 2008. A user browsing model to predict search engine click data from past observations. SIGIR (2008). 
 
 # Files
 ## README.md
